@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Education and training courses, skills, and career development.">
+  <title>EduTrain | Education & Training</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a href="#home" class="logo">Edu<span>Train</span></a>
+    <button class="menu-btn" id="menuBtn">☰</button>
+    <nav id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#courses">Courses</a>
+      <a href="#training">Training</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="tag">LEARN • GROW • ACHIEVE</p>
+        <h1>Build Your Future Through Education & Training</h1>
+        <p>Discover practical courses, expert guidance, and career-focused training designed to help students and professionals succeed.</p>
+        <div class="buttons">
+          <a href="#courses" class="btn primary">Explore Courses</a>
+          <a href="#contact" class="btn secondary">Get Started</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="graduation">🎓</div>
+        <h3>Knowledge is Power</h3>
+        <p>Develop skills that create opportunities.</p>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div>
+        <p class="tag">ABOUT US</p>
+        <h2>Education that prepares you for tomorrow.</h2>
+      </div>
+      <div>
+        <p>EduTrain is a modern education and training platform for learners who want to improve their knowledge, technical skills, communication, and career readiness.</p>
+        <p>Our learning approach combines theory, practical activities, projects, and continuous support.</p>
+      </div>
+    </section>
+
+    <section id="courses" class="section">
+      <p class="tag center">OUR PROGRAMS</p>
+      <h2 class="center">Popular Courses</h2>
+      <div class="cards">
+        <article class="card">
+          <div class="icon">💻</div>
+          <h3>Computer Skills</h3>
+          <p>Learn programming, web development, databases, and digital tools.</p>
+          <a href="#contact">Enroll Now →</a>
+        </article>
+        <article class="card">
+          <div class="icon">📊</div>
+          <h3>Data & Technology</h3>
+          <p>Build practical knowledge in data analysis, AI, and modern technologies.</p>
+          <a href="#contact">Enroll Now →</a>
+        </article>
+        <article class="card">
+          <div class="icon">🗣️</div>
+          <h3>Communication Skills</h3>
+          <p>Improve English, presentation, teamwork, and interview skills.</p>
+          <a href="#contact">Enroll Now →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="training" class="section training">
+      <div>
+        <p class="tag">WHY CHOOSE US</p>
+        <h2>Practical training for real-world success.</h2>
+        <p>Learn at your own pace with structured lessons and hands-on activities.</p>
+      </div>
+      <ul class="features">
+        <li><strong>✓</strong> Experienced instructors and mentors</li>
+        <li><strong>✓</strong> Beginner-friendly learning materials</li>
+        <li><strong>✓</strong> Practical projects and assessments</li>
+        <li><strong>✓</strong> Certificates and career guidance</li>
+      </ul>
+    </section>
+
+    <section class="stats">
+      <div><strong>500+</strong><span>Students</span></div>
+      <div><strong>20+</strong><span>Courses</span></div>
+      <div><strong>95%</strong><span>Completion Rate</span></div>
+      <div><strong>10+</strong><span>Expert Trainers</span></div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div>
+        <p class="tag">CONTACT US</p>
+        <h2>Ready to start learning?</h2>
+        <p>Send us your details and our team will contact you about courses and training programs.</p>
+        <p><strong>Email:</strong> info@edutrain.example</p>
+        <p><strong>Phone:</strong> +91 91214 97402</p>
+      </div>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <select id="course" required>
+          <option value="">Select a Course</option>
+          <option>Computer Skills</option>
+          <option>Data & Technology</option>
+          <option>Communication Skills</option>
+        </select>
+        <textarea id="message" placeholder="Your Message" rows="4"></textarea>
+        <button class="btn primary" type="submit">Submit Inquiry</button>
+        <p id="formMessage"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 EduTrain. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
